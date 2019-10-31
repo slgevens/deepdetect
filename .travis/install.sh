@@ -62,7 +62,6 @@ if [ "$TRAVIS_OS_NAME" = 'linux' ]; then
 	    "cuda-cusparse-dev-${CUDA_PKG_VERSION}"
         # Manually create CUDA symlink
         sudo ln -sf /usr/local/cuda-$CUDA_VERSION /usr/local/cuda
-    fi
 else
     echo "OS \"$TRAVIS_OS_NAME\" is unknown"
     exit 1
