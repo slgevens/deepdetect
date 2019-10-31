@@ -1,6 +1,6 @@
 os: linux
 sudo: required
-dist: bionic
+dist: xenial
 language: cpp
 compiler: gcc
 
