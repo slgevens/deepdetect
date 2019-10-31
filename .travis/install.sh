@@ -32,7 +32,8 @@ if [ "$TRAVIS_OS_NAME" = 'linux' ]; then
 	libsnappy-dev \
 	liblmdb-dev \
 	libutfcpp-dev \
-	libarchive-dev
+	libarchive-dev \
+	rapidjson-dev
 
         # Install ccache symlink wrappers
         pushd /usr/local/bin
