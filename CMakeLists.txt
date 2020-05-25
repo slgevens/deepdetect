@@ -894,7 +894,7 @@ if (USE_TENSORRT)
       set(TENSORRT_COMMIT 639d11abcc7d1f1a4933e87b95c126e6c82e2a5c)
       message(STATUS "Found TensorRT libraries version 6")
     elseif(EXISTS "${TRTTESTDIR}/libnvinfer.so.5")
-      set(TENSORRT_COMMIT 0d36bbb29732cdefbed6a60b51039ea1fa747742)
+      set(TENSORRT_COMMIT v5.1.5)
       message(STATUS "Found TensorRT libraries version 5")
     endif()
 
